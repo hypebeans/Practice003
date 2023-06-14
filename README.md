@@ -8,7 +8,7 @@
 2. `mkdir ~/Documents/iOSPractice`と入力して新しいフォルダを作成する
 3. `cd ~/Documents/iOSPractice`と入力してディレクトリを移動する
 4. `git clone https://github.com/MaskerDog/Practice003.git`を実行してリポジトリをローカルにクローンする
-5. `open Practice003/Practice001.xcodeproj/`でプロジェクトを開く
+5. `open Practice003/Practice003.xcodeproj/`でプロジェクトを開く
 6. シミュレーターを起動する
 7. 以下の画面が表示されることを確認する
 
