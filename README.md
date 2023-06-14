@@ -12,6 +12,7 @@
 6. シミュレーターを起動する
 7. 以下の画面が表示されることを確認する
 
+<kbd><img src="https://github.com/MaskerDog/Practice003/assets/37284851/cdd0601d-3402-43fa-ac36-59d9c4e0c3d1" height="500"></kbd>
 
 ## 目的
 1. Assetsを使った画像の表示ができる
@@ -59,7 +60,8 @@ struct ContentView: View {
 }
 ```
 
-<kbd></kbd>
+
+<kbd><img src="https://github.com/MaskerDog/Practice003/assets/37284851/80ef2129-7d4d-423c-8d1b-8f90be2ec11f" height="500"></kbd>
 
 
 ## やること2
@@ -78,6 +80,8 @@ struct ContentView: View {
 * maxWidthは「フレーム（枠）が持てる最大の大きさ」なので、それ以上大きくはならない。
 * 単なるwidthの場合は、「フレーム（枠）の大きさの固定」である。
 
+<kbd>![image](https://github.com/MaskerDog/Practice003/assets/37284851/40afe83a-2fa1-43dd-be13-487d66371707)</kbd>
+
 ## やること4
 
 まず、Imagesディレクトリにある「park.png」「park@2x.png」「park@3x.png」の画像を確認する。  
@@ -93,12 +97,18 @@ selectable表示に変更し、`Image("park")`をクリックしてImageの領�
 * ImageでAssetsの画像を表示する場合、元の画像の大きさを維持しようとする。
 * 前述の`.frame`で領域を変更しても、Imageが持つ画像を全部表示しようとする。
 
+<kbd>![image](https://github.com/MaskerDog/Practice003/assets/37284851/fb4259d4-5eba-4c16-9554-a00e7ce9a818)</kbd>
+
+
 サイズを変えたい場合は、`.resizable()`を使う。
 
 ```Swift
             Image("park")
                 .resizable()
 ```
+
+<kbd><img src="https://github.com/MaskerDog/Practice003/assets/37284851/db3603c4-e0ef-4379-aa9e-e2ace239af75" height="500"></kbd>
+
 
 縦横比（アスペクト比）が変わってしまうので、次のように修正をする。
 
@@ -110,7 +120,7 @@ selectable表示に変更し、`Image("park")`をクリックしてImageの領�
 
 `.fit`は画像を領域内に全て表示しようと縮小をする。`.fill`を指定することもできるが、こちらは領域内に隙間なく画像を表示しようとする。
 
-## やること5
+## やること6
 
 ```Swift
             Text("小山田緑地（おやまだりょくち）は、東京都町田市に所在する都立公園。")
